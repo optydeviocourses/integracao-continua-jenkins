@@ -1,0 +1,13 @@
+
+# docker com o Postgres e o sonarqube
+=> cd /Volumes/ROBERTO-CD1/Dev/udemy.com/integracao-continua-jenkins/devops/
+=> docker-compose up
+
+# jenkins
+=> java -jar jenkins.war --httpPort=8000
+
+
+# tomcat
+=> cd /Volumes/ROBERTO-CD1/Dev/udemy.com/integracao-continua-jenkins/devops/apache-tomcat-9.0.36/bin] on   
+=> ./startup.sh
+

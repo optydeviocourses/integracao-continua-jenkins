@@ -1,0 +1,17 @@
+06-Jul-2020 06:39:48.104 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+06-Jul-2020 06:39:50.255 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 06:41:36.980 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+06-Jul-2020 06:41:39.436 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 06:42:23.490 INFORMAÇÕES [http-nio-8001-exec-6] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+06-Jul-2020 06:42:25.511 INFORMAÇÕES [http-nio-8001-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 06:42:35.445 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+06-Jul-2020 06:42:37.249 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 06:43:50.147 INFORMAÇÕES [http-nio-8001-exec-20] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+06-Jul-2020 06:43:52.224 INFORMAÇÕES [http-nio-8001-exec-20] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 06:46:11.127 INFORMAÇÕES [http-nio-8001-exec-22] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+06-Jul-2020 06:46:13.142 INFORMAÇÕES [http-nio-8001-exec-22] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 06:55:27.199 INFORMAÇÕES [http-nio-8001-exec-31] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+06-Jul-2020 06:55:28.920 INFORMAÇÕES [http-nio-8001-exec-31] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 06:55:29.754 INFORMAÇÕES [http-nio-8001-exec-31] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+06-Jul-2020 07:43:51.309 INFORMAÇÕES [http-nio-8001-exec-36] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jul-2020 07:43:51.464 INFORMAÇÕES [http-nio-8001-exec-37] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'

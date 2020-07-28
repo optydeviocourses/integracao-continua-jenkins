@@ -1,0 +1,156 @@
+07-Jul-2020 07:25:48.185 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+07-Jul-2020 07:25:48.185 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+07-Jul-2020 07:25:48.201 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 07:31:40.565 GRAVE [http-nio-8001-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: FAIL - Deploy Upload Failed, Exception: [org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)]
+	java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)
+		at org.apache.catalina.connector.Request.parseParts(Request.java:2913)
+		at org.apache.catalina.connector.Request.parseParameters(Request.java:3202)
+		at org.apache.catalina.connector.Request.getParameter(Request.java:1124)
+		at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:141)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:666)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.init(FileItemIteratorImpl.java:150)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.getMultiPartStream(FileItemIteratorImpl.java:194)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:213)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:131)
+		at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:255)
+		at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:279)
+		at org.apache.catalina.connector.Request.parseParts(Request.java:2869)
+		... 28 more
+07-Jul-2020 07:31:40.565 INFORMAÇÕES [http-nio-8001-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 07:45:50.697 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+07-Jul-2020 07:45:50.698 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+07-Jul-2020 07:56:55.519 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+07-Jul-2020 07:56:55.520 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+07-Jul-2020 07:57:05.455 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 07:57:24.272 GRAVE [http-nio-8001-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: FAIL - Deploy Upload Failed, Exception: [org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)]
+	java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)
+		at org.apache.catalina.connector.Request.parseParts(Request.java:2913)
+		at org.apache.catalina.connector.Request.parseParameters(Request.java:3202)
+		at org.apache.catalina.connector.Request.getParameter(Request.java:1124)
+		at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:141)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:666)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.init(FileItemIteratorImpl.java:150)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.getMultiPartStream(FileItemIteratorImpl.java:194)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:213)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:131)
+		at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:255)
+		at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:279)
+		at org.apache.catalina.connector.Request.parseParts(Request.java:2869)
+		... 28 more
+07-Jul-2020 07:57:24.272 INFORMAÇÕES [http-nio-8001-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 08:03:08.544 INFORMAÇÕES [http-nio-8001-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 08:08:11.837 GRAVE [http-nio-8001-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: FAIL - Deploy Upload Failed, Exception: [org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)]
+	java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)
+		at org.apache.catalina.connector.Request.parseParts(Request.java:2913)
+		at org.apache.catalina.connector.Request.parseParameters(Request.java:3202)
+		at org.apache.catalina.connector.Request.getParameter(Request.java:1124)
+		at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:141)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:666)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.tomcat.util.http.fileupload.impl.SizeLimitExceededException: the request was rejected because its size (66437460) exceeds the configured maximum (52428800)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.init(FileItemIteratorImpl.java:150)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.getMultiPartStream(FileItemIteratorImpl.java:194)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:213)
+		at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:131)
+		at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:255)
+		at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:279)
+		at org.apache.catalina.connector.Request.parseParts(Request.java:2869)
+		... 28 more
+07-Jul-2020 08:08:11.837 INFORMAÇÕES [http-nio-8001-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:19:13.830 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:19:22.921 INFORMAÇÕES [http-nio-8001-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/tasks-backend'
+07-Jul-2020 12:19:23.792 INFORMAÇÕES [http-nio-8001-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:24:05.890 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+07-Jul-2020 12:24:05.890 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+07-Jul-2020 12:24:05.891 INFORMAÇÕES [http-nio-8001-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:24:05.906 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+07-Jul-2020 12:24:05.906 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Volumes/ROBERTO-CD1/Dev/udemy.com/integracao-continua-jenkins/devops/apache-tomcat-9.0.36/webapps/tasks-backend.war
+07-Jul-2020 12:24:58.306 INFORMAÇÕES [http-nio-8001-exec-14] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/tasks-backend'
+07-Jul-2020 12:24:58.918 INFORMAÇÕES [http-nio-8001-exec-14] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:14.163 INFORMAÇÕES [http-nio-8001-exec-15] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:18.223 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:19.244 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:19.531 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:20.177 INFORMAÇÕES [http-nio-8001-exec-17] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:20.726 INFORMAÇÕES [http-nio-8001-exec-16] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:21.220 INFORMAÇÕES [http-nio-8001-exec-21] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:21.577 INFORMAÇÕES [http-nio-8001-exec-22] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:25:22.015 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:27:09.050 INFORMAÇÕES [http-nio-8001-exec-23] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:31:18.042 INFORMAÇÕES [http-nio-8001-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+07-Jul-2020 12:31:18.048 INFORMAÇÕES [http-nio-8001-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+07-Jul-2020 12:31:18.048 INFORMAÇÕES [http-nio-8001-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Volumes/ROBERTO-CD1/Dev/udemy.com/integracao-continua-jenkins/devops/apache-tomcat-9.0.36/webapps/tasks-backend.war
+07-Jul-2020 12:32:27.874 INFORMAÇÕES [http-nio-8001-exec-18] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

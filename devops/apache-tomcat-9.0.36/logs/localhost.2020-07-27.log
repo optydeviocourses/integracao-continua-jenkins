@@ -1,0 +1,16 @@
+27-Jul-2020 16:38:33.316 INFORMAÇÕES [http-nio-8001-exec-2] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+27-Jul-2020 16:38:45.718 INFORMAÇÕES [http-nio-8001-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+27-Jul-2020 16:38:50.875 INFORMAÇÕES [http-nio-8001-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+27-Jul-2020 18:38:49.286 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+27-Jul-2020 18:38:54.044 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+27-Jul-2020 18:39:19.442 INFORMAÇÕES [http-nio-8001-exec-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+27-Jul-2020 18:39:32.531 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+27-Jul-2020 18:39:36.680 INFORMAÇÕES [http-nio-8001-exec-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+27-Jul-2020 18:40:14.784 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+27-Jul-2020 18:40:14.832 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+27-Jul-2020 18:40:16.866 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+27-Jul-2020 18:40:19.580 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+27-Jul-2020 18:40:21.019 INFORMAÇÕES [http-nio-8001-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+27-Jul-2020 18:40:42.521 INFORMAÇÕES [http-nio-8001-exec-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+27-Jul-2020 18:40:47.817 INFORMAÇÕES [http-nio-8001-exec-17] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+27-Jul-2020 18:40:47.829 INFORMAÇÕES [http-nio-8001-exec-17] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

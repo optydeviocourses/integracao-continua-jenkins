@@ -1,0 +1,28 @@
+07-Jul-2020 07:25:17.678 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 07:25:23.150 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:25:32.486 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 07:25:36.174 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:25:37.978 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:45:17.370 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 07:45:17.652 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 07:45:17.694 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 07:45:27.911 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 07:45:33.158 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:45:44.368 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 07:45:47.943 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:45:49.978 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:51:18.606 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 07:51:18.697 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 07:51:18.734 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 07:51:31.670 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 07:51:36.115 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:51:44.939 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 07:51:48.347 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 07:51:50.158 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 12:19:22.973 INFORMAÇÕES [http-nio-8001-exec-9] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 12:24:16.384 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 12:24:20.495 INFORMAÇÕES [http-nio-8001-exec-12] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 12:24:58.313 INFORMAÇÕES [http-nio-8001-exec-14] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Jul-2020 12:31:24.869 INFORMAÇÕES [http-nio-8001-exec-27] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Jul-2020 12:31:28.207 INFORMAÇÕES [http-nio-8001-exec-27] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Jul-2020 12:32:19.674 INFORMAÇÕES [http-nio-8001-exec-22] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
